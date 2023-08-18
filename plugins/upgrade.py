@@ -10,21 +10,17 @@ async def upgrade(bot,update):
 	
 	**VIP 1 ** 
 	Daily  Upload  limit 50GB
-	Price Rs 1231  🇮🇳/🌎 15$  per Year 
+	Price Rs 29  🇮🇳/🌎 0.6$  per Month 
 	
 	**VIP 2 **
 	Daily Upload limit Unlimited 
-	Price Rs  2051  🇮🇳/🌎 25$  per Year
-	
-	
-	Pay Using Upi I'd ```9480251952@paytm```
-	
-	After Payment Send Screenshots Of 
+	Price Rs  69  🇮🇳/🌎 0.9$  per Month
+	 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("🚨 Aᴅᴍɪɴ 🚨",url = "https://t.me/Praxxsh")], 
+        			[InlineKeyboardButton("🔰 Mᴀɪɴ Cʜᴀɴɴᴇʟ 🔰",url = "https://t.me/Doremon_Botz"),
+        			InlineKeyboardButton("🤖 Pᴜʙʟɪᴄ Bᴏᴛ 🤖",url = "https://t.me/FlashRenamer_bot")],[InlineKeyboardButton("❌ Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -41,14 +37,10 @@ async def upgradecm(bot,message):
 	**VIP 2 **
 	Daily Upload limit Unlimited
 	Price Rs  2051  🇮🇳/🌎 25$  per Year
-	
-	
-	Pay Using Upi I'd ```9480251952@paytm```
-	
-	After Payment Send Screenshots Of 
+	 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("🚨 Aᴅᴍɪɴ 🚨",url = "https://t.me/Praxxsh")], 
+        			[InlineKeyboardButton("🔰 Mᴀɪɴ Cʜᴀɴɴᴇʟ 🔰",url = "https://t.me/Doremon_Botz"),
+        			InlineKeyboardButton("🤖 Pᴜʙʟɪᴄ Bᴏᴛ 🤖",url = "https://t.me/FlashRenamer_bot")],[InlineKeyboardButton("❌ Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
