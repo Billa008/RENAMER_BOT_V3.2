@@ -59,13 +59,13 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("🔰Support Channel🔰" ,url="https://t.me/Doremon_Botz") ], 
+	[InlineKeyboardButton("⚡Subscribe Group⚡", url="https://t.me/+5xScmjemXiI4Yjll") ]  ]))
 	    return
 	if id:
 	        if id == procode:
 	            await message.reply_text("You Can Use Now ")
-	            uploadlimit(int(user_id),10737418240)
+	            uploadlimit(int(user_id),1217549670)
 	            usertype(int(user_id),"NORMAL")
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
 async def send_doc(client,message):
@@ -101,7 +101,7 @@ async def send_doc(client,message):
        
        if user_type=="Free":
            LIMIT = 600
-           await message.reply_text(f"Complete The Task and get Free subscription per day . Watch full video https://lntechnical.works/{message.from_user.id} ")
+           await message.reply_text(f"Complete The Task and get Free subscription per day/{message.from_user.id} ")
            return
        elif user_type=="NORMAL":
            LIMIT = 250
@@ -169,5 +169,5 @@ async def send_doc(client,message):
        		    total_size(int(botid),prsize,file.file_size)
        		    await message.reply_text(f"""__What do you want me to do with this file?__\n**File Name** :- {filename}\n**File Size** :- {filesize}\n**Dc ID** :- {dcid}""",reply_to_message_id = message.id,reply_markup = InlineKeyboardMarkup(
        		[[ InlineKeyboardButton("📝 Rename",callback_data = "rename"),
-       		InlineKeyboardButton("✖️ Cancel",callback_data = "cancel")  ]]))
+       		InlineKeyboardButton("❌ Cancel",callback_data = "cancel")  ]]))
        		
